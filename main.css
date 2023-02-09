@@ -1,0 +1,60 @@
+/* CSS HEX */
+/* --gamboge: #efa000ff;
+--tangerine: #f48701ff;
+--coquelicot: #f94a1aff; */
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 35px;
+  padding: 10px;
+}
+
+img {
+  width: 35%;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 13px;
+  position: relative; 
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px,
+    rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+}
+h1 {
+  color: rgb(19, 18, 18);
+  text-align: center;
+  border: 5px solid #f94a1aff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 10px 10px 5px lightblue;
+  font-size: 3em;
+  border-top: none;
+  border-right: none;
+}
+h1,
+h2 {
+  font-family: "Pacifico", cursive;
+}
+.burguer {
+  background-color: #efa000ff;
+  margin: 3px;
+  padding: 20px;
+  border: 3px groove #efa000ff;
+  border-radius: 11px;
+}
+
+#header {
+  margin: 15px;
+  padding: 15px;
+  border: 6px ridge #f94a1aff;
+  border-radius: 11px;
+}
+
+#footer {
+  text-align: justify;
+  left: 25%;
+  right: 25%;
+  background-color: #f94a1aff;
+  margin: 10px;
+  padding: 15px;
+  border: 6px ridge #f94a1aff;
+  border-radius: 11px;
+}
