@@ -33,6 +33,13 @@ h1,
 h2 {
   font-family: "Pacifico", cursive;
 }
+
+#customers{
+
+  margin-left: 17%;
+  margin-right: 10%;
+  
+}
 .burguer {
   background-color: #efa000ff;
   margin: 3px;
@@ -57,4 +64,14 @@ h2 {
   padding: 15px;
   border: 6px ridge #f94a1aff;
   border-radius: 11px;
+}
+
+.image {
+  max-width: 100%;
+  flex-basis: 40%; 
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
