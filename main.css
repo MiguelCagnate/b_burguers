@@ -4,9 +4,10 @@
 --coquelicot: #f94a1aff; */
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Glegoo", sans-serif;
   margin: 35px;
-  padding: 10px;
+  padding: 20px;
+  background-color: white;
 }
 
 img {
@@ -35,10 +36,8 @@ h2 {
 }
 
 #customers{
-
   margin-left: 17%;
-  margin-right: 10%;
-  
+  margin-right: 10%;  
 }
 .burguer {
   background-color: #efa000ff;
@@ -49,9 +48,10 @@ h2 {
 }
 
 #header {
+  /* background-color: #f94a1aff; */
   margin: 15px;
   padding: 15px;
-  border: 6px ridge #f94a1aff;
+  /* border: 7px groove #f94a1aff; */
   border-radius: 11px;
 }
 
@@ -66,12 +66,13 @@ h2 {
   border-radius: 11px;
 }
 
-.image {
+#image {
   max-width: 100%;
   flex-basis: 40%; 
 }
-.container {
+#container {
   display: flex;
   align-items: center;
   justify-content: center; 
 }
+
