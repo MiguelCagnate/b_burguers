@@ -5,20 +5,19 @@
 
 body {  
   font-family: "Glegoo", sans-serif;
-  margin: 35px;
-  padding: 25px;
+  margin: 7%;
+  padding: 15px;
   background-color: white;
 }
 h1 {
+  background-color: #f94a1aff;
+  padding: 25px;
   color: rgb(19, 18, 18);
   text-align: center;
-  border: 5px solid #f94a1aff;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  box-shadow: 10px 10px 5px lightblue;
+  border: 1px solid white;
+  border-radius: 6px;  
   font-size: 3em;
-  border-top: none;
-  border-right: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
 }
 h1,
 h2 {
@@ -26,7 +25,7 @@ h2 {
 }
 
 #customers {
-  margin-left: 17%;
+  margin-left: 13%;
   margin-right: 10%;
 }
 .burguer {
@@ -41,17 +40,7 @@ h2 {
   padding: 15px;
   border-radius: 11px;
 }
-#footer {
-  width:80%;
-  text-align: justify;
-  left: 15%;
-  right: 15%;
-  background-color: #f94a1aff;
-  margin: 10px;
-  padding: 15px;
-  border: 6px ridge #f94a1aff;
-  border-radius: 11px;
-}
+
 .container {
   margin: 3px;
   padding: 13px;
@@ -66,8 +55,17 @@ h2 {
 }
 img {  
   margin: 5px;
-  padding: 2px; 
-  border-radius: 10%;  
+  border-radius: 2%;  
   border-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+
+  #footer {  
+    margin: 3%;
+    color: white;
+    left: 5%;
+    right: 5%;
+    text-align:justify; 
+    background-color: #f94a1aff;    
+    border: 6px ridge #f94a1aff;
+    border-radius: 7px;
+  }
