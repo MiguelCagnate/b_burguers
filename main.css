@@ -3,18 +3,12 @@
 --tangerine: #f48701ff;
 --coquelicot: #f94a1aff; */
 
-body {
+body {  
   font-family: "Glegoo", sans-serif;
   margin: 35px;
-  padding: 20px;
+  padding: 25px;
   background-color: white;
 }
-img{
-  border-radius: 15%;
-  border-color: white;
-
-}
-
 h1 {
   color: rgb(19, 18, 18);
   text-align: center;
@@ -31,9 +25,9 @@ h2 {
   font-family: "Pacifico", cursive;
 }
 
-#customers{
+#customers {
   margin-left: 17%;
-  margin-right: 10%;  
+  margin-right: 10%;
 }
 .burguer {
   background-color: #efa000ff;
@@ -42,41 +36,38 @@ h2 {
   border: 3px groove #efa000ff;
   border-radius: 11px;
 }
-
-#header { 
+#header {
   margin: 15px;
-  padding: 15px; 
+  padding: 15px;
   border-radius: 11px;
 }
-
 #footer {
+  width:80%;
   text-align: justify;
-  left: 25%;
-  right: 25%;
+  left: 15%;
+  right: 15%;
   background-color: #f94a1aff;
   margin: 10px;
   padding: 15px;
   border: 6px ridge #f94a1aff;
   border-radius: 11px;
 }
-
 .container {
+  margin: 3px;
+  padding: 13px;
   display: flex;
-  align-items:center;
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
 }
-.text{
+.text {
   margin: 10px;
-  padding-left: 20px;
-  line-height: 2em;
+  padding-left: 2%;
+  line-height: 35px;
 }
-.image {
-  width: 60%;
-  padding: 3px;
-  border-radius: 15%;
-  flex-basis: 50%;
+img {  
+  margin: 5px;
+  padding: 2px; 
+  border-radius: 10%;  
   border-color: white;
-  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px,
-  rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
