@@ -63,9 +63,7 @@ h2 {
   margin: 5px;
   border-radius: 2%;
   border-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 #footer {
@@ -75,6 +73,7 @@ h2 {
   right: 5%;
   text-align: justify;
   background-color: #f94a1aff;
-  border: 6px ridge #f94a1aff;
+  border: 3px ridge #f94a1aff;
   border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
