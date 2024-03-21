@@ -196,19 +196,27 @@ img {
   justify-content: center;
   margin: "0px 15px 15px 0px";
 }
-
 #footer {
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: fit-content;
-  text-align: start;
-  gap: 10px;
-  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 30rem; /* Limit the width for smaller screens */
+  margin: 3px auto;
   color: white;
-  text-align: left;
   background-color: #ea7b5d;
   border: 3px ridge #f94a1aff;
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* Media query for screens smaller than 375px wide */
+@media (max-width: 375px) {
+  #footer {
+    max-width: 100%; /* Allow the footer to take up the full width on small screens */
+    margin-right: 2px; /* Adjust padding for smaller screens if necessary */
+  }
+
 }
