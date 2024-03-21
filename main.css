@@ -1,43 +1,184 @@
-/* CSS HEX */
-/* --gamboge: #efa000ff;
---tangerine: #f48701ff;
---coquelicot: #f94a1aff; */
+/* Estilo para pantallas pequeñas */
+@media only screen and (min-width: 375px) {
+  img {
+    width: 110%;
+    max-width: 100%;
+    image-rendering: pixelated;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  img {
+    width: 100%;
+    max-width: 80%;
+    image-rendering: pixelated;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  img {
+    width: 100%;
+    max-width: 100%;
+    image-rendering: pixelated;
+  }
+}
+
+/* Media query for screens up to 375px wide (like iPhone SE) */
+@media (min-width: 375px) {
+  .text {
+    font-size: 13px; /* Adjust font size for smaller screens */
+    padding: 5px;
+  }
+}
+
+/* Media query for screens between 376px and 768px wide (like most smartphones and tablets) */
+@media (min-width: 376px) and (max-width: 768px) {
+  .text {
+    font-size: 14px; /* Adjust font size for medium-sized screens */
+    padding: 5px;
+  }
+}
+
+/* Media query for screens larger than 768px wide (like desktops and laptops) */
+@media (min-width: 769px) {
+  .text {
+    font-size: 17px; /* Adjust font size for larger screens */
+    padding: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text {
+    font-size: 18px; /* Adjust font size for larger screens */
+    padding: 5px;
+  }
+}
 
 body {
-  font-family: "Glegoo", sans-serif;
-  margin: 7%;
-  padding: 15px;
-  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1px;
+
+  color: rgb(28, 27, 27);
 }
 h1 {
-  background-color: #f94a1aff;
-  padding: 25px;
-  color: rgb(19, 18, 18);
+  font-family: "Pacifico", cursive;
+  max-width: 55rem;
+  margin: 5px auto;
+  padding: 5px auto;
   text-align: center;
-  border: 1px solid white;
+  background-color: rgb(244, 99, 59);
+  color: rgb(19, 18, 18);
   border-radius: 6px;
   font-size: 3em;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.containerlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#customers {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  font-size: 67%;
+  border-collapse: collapse;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+#customers th {
+  text-align: center;
+
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+#customers th a {
+  display: grid;
+  text-decoration: none;
+  background-color: rgb(244, 99, 59); /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 3px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.2s;
+}
+
+#customers th a:hover {
+  background-color: #353330; /* Button hover background color */
+}
+
 #social {
   text-align: center;
-  padding: 3px;
-  margin: 5px;
+  padding: 13px auto;
+  margin: 15px auto;
 }
-h1,
-h2 {
-  font-family: "Pacifico", cursive;
+
+.button-52 {
+  font-size: 13px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 8px 15px 8px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
-#customers {
-  margin-left: 13%;
-  margin-right: 10%;
+
+.button-52:after {
+  content: "";
+  background-color: #f36d48;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 375px) {
+  .button-52 {
+    padding: 10px 47px 10px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+.img {
+  display: inline-block;
+  image-rendering: pixelated;
+  flex-basis: 100%;
+  order: 2;
+  clear: left;
+  border-radius: 2%;
+  border-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .burguer {
   background-color: #efa000ff;
   margin: 3px;
-  padding: 20px;
+  padding: 10px;
   border: 3px groove #efa000ff;
   border-radius: 11px;
 }
@@ -49,30 +190,24 @@ h2 {
 
 .container {
   margin: 3px;
-  padding: 13px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.text {
-  margin: 10px;
-  padding-left: 2%;
-  line-height: 35px;
-}
-.img {
-  margin: 5px;
-  border-radius: 2%;
-  border-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin: "0px 15px 15px 0px";
 }
 
 #footer {
-  margin: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  text-align: start;
+  gap: 10px;
+  margin: 20px auto;
   color: white;
-  left: 5%;
-  right: 5%;
-  text-align: justify;
-  background-color: #f94a1aff;
+  text-align: left;
+  background-color: #ea7b5d;
   border: 3px ridge #f94a1aff;
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;

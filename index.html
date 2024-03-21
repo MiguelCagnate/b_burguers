@@ -1,62 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best burger-Barcelona</title>
-    <link rel="stylesheet" href="/main.css" >
-    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Burger-Barcelona</title>
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
-    >
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap"
       rel="stylesheet"
-    >
+    />
   </head>
   <body>
-    <h1 class="top">Best <span style="color: white; text-align: center;">Burger</span> Barcelona</h1>
+    <h1>
+      Best
+      <span style="color: white; text-align: center">Burger</span> Barcelona
+    </h1>
     <div id="social">
-      <a href="https://www.instagram.com/barcelonafoodexperience/"><img src="/social_media/instagram.png" style="width:2em; height:2em; margin: 7px;" alt="instagram color icon"></a>
-      <a href="https://mobile.twitter.com/barcelonafood"><img src="/social_media/twitter.png" style="width:2em; height:2em; margin: 7px;" alt="twitter color icon"></a>
-      <a href="https://www.pinterest.es/barcelonafood/"><img src="/social_media/pinterest.png" style="width:2em; height:2em; margin: 7px;" alt="pinterest color icon"></a>
+      <a href="https://www.instagram.com/barcelonafoodexperience/"
+        ><img
+          src="/social_media/instagram.png"
+          style="width: 2em; height: 2em; margin: 7px"
+          alt="instagram color icon"
+      /></a>
+      <a href="https://mobile.twitter.com/barcelonafood"
+        ><img
+          src="/social_media/twitter.png"
+          style="width: 2em; height: 2em; margin: 7px"
+          alt="twitter color icon"
+      /></a>
+      <a href="https://www.pinterest.es/barcelonafood/"
+        ><img
+          src="/social_media/pinterest.png"
+          style="width: 2em; height: 2em; margin: 7px"
+          alt="pinterest color icon"
+      /></a>
     </div>
     <div id="header">
       <div id="intro-paragraph">
         <p style="text-align: center">
           <strong>One of the most sought after lists</strong> on the
-          <em>Barcelona</em> Food Experience <br>website is best burgers. Here
+          <em>Barcelona</em> Food Experience <br />website is best burgers. Here
           are some of my favorites, and some of my reader’s favorites are
-          <br>listed below. Let me know if I missed a place!
+          <br />listed below. Let me know if I missed a place!
         </p>
 
         <!-- Listado de burgers -->
-        <table id="customers">
-          <tr>
-            <th><a href="#asado">Asado</a></th>
-            <th><a href="#chivou">Chivuo’s</a></th>
-            <th><a href="#caravelle">Caravelle</a></th>
-            <th><a href="#vegan">Vegan junk Food </a></th>
-            <th><a href="#timesburg">Timesburg</a></th>
-            <th><a href="#laroyale"> La Royale</a></th>
-            <th><a href="#lareal"> La Real</a></th>
-            <th><a href="#machaka"> Machaka Burger</a></th>
-            <th><a href="#bacoa"> Bacoa</a></th>
-          </tr>
-        </table>
+
+        <h3>
+          <div class="containerlist">
+            <table id="customers" style="align-items: center">
+              <tr>
+                <th><a href="#asado">Asado</a></th>
+                <th><a href="#chivou">Chivuo’s</a></th>
+                <th><a href="#caravelle">Caravelle</a></th>
+                <th><a href="#vegan">Vegan junk Food </a></th>
+              </tr>
+              <tr>
+                <th><a href="#timesburg">Timesburg</a></th>
+                <th><a href="#laroyale"> La Royale</a></th>
+                <th><a href="#lareal"> La Real</a></th>
+                <th><a href="#machaka"> Machaka Burger</a></th>
+              </tr>
+            </table>
+          </div>
+        </h3>
       </div>
       <!-- Aqui terminado listado -->
     </div>
 
     <div class="container">
       <div class="image">
-        <img src="/burgers/asado1.png" alt="meat burger of Asado restaurant" class="img">
+        <img
+          src="/burgers/asado1.jpg"
+          alt="meat burger of Asado restaurant"
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href="https://www.asadobarcelona.com/" target="_blank">ASADO</a>
+          <a
+            href="https://www.asadobarcelona.com/"
+            target="_blank"
+            style="text-decoration: none"
+            >ASADO</a
+          >
         </h4>
         <p id="asado">
           A fairly new player in the burger field in
@@ -77,26 +112,33 @@
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/caravelle2.png"
+          src="/burgers/caravelle2.jpg"
           alt="meat burger of Chivous restaurant"
-          class="img">
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href="https://www.chivuos.com/chivuos/" target="_blank"
+          <a
+            href="https://www.chivuos.com/chivuos/"
+            target="_blank"
+            style="text-decoration: none"
+            id="chivou"
             >CHIVOU'S</a
           >
         </h4>
         <p>
-          <b id="chivou">Chivuo’s</b> - A classic, hands down. Chivuo's has been
-          around now for a few years, and they have created a name for
-          themselves with their top-notch burgers and their “slow street food.”
-          The pulled pork burger is a great option: the pork has been slowly
-          roasted for 16 hours, and the house BBQ sauce is legendary. Keep an
-          eye out for the seasonal Patty Melt that is one of the best sandwiches
-          I have EVER had. They have craft beers on tap. Read my review of
-          Chivuo’s here. Carrer del Pintor Fortuny 15 (Raval), Carrer de
-          València 204 (Eixample) and Carrer del Torrent de l’Olla 175 (Gracia)
+          A classic, hands down. Chivuo's has been around now for a few years,
+          and they have created a name for themselves with their top-notch
+          burgers and their “slow street food.” The pulled pork burger is a
+          great option: the pork has been slowly roasted for 16 hours, and the
+          house BBQ sauce is legendary. Keep an eye out for the seasonal Patty
+          Melt that is one of the best sandwiches I have EVER had. They have
+          craft beers on tap. Read my review of Chivuo’s here. Carrer del Pintor
+          Fortuny 15 (Raval), Carrer de València 204 (Eixample) and Carrer del
+          Torrent de l’Olla 175 (Gracia)
         </p>
       </div>
     </div>
@@ -104,20 +146,28 @@
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/veganjunkfoodbar3.png"
+          src="/burgers/veganjunkfoodbar3.jpg"
           alt="meet burger at Vegan Junk Food Bar "
-          class="img">
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href="https://www.caravellebcn.com/" target="_blank">CARAVELLE</a>
-        </h4>
+          <a
+            href="https://www.caravellebcn.com/"
+            target="_blank"
+            style="text-decoration: none"
+            id="caravelle"
+            >CARAVELLE</a
+          >
+        </h4>      
         <p>
-          <b id="caravelle">Caravelle</b> - Their burger is AMAZING. The bun,
-          the meat, the sauce, all of the ingredients, everything. Love this
-          burger. Pair it with one of their craft beers, or their refreshing
-          home-made sodas. Read my review on Caravelle here. Carrer Pintor
-          Fortuny 31,
+          Their burger is AMAZING. The bun,the meat, the sauce, all of the
+          ingredients, everything. Love this burger. Pair it with one of their
+          craft beers, or their refreshing home-made sodas. Read my review on
+          Caravelle here. Carrer Pintor Fortuny 31,
           <b
             ><i
               ><em><b> Barcelona</b> </em></i
@@ -133,7 +183,7 @@
       <em><b>burgers</b></em> are big and packed with flavor, topped with a
       perfect brioche bun. My weakness is the Fat Elvis: peanut butter, banana,
       bacon, and a meat patty. If you are a really, really big burger fan make
-      sure to order the Widowmaker (good luck with finishing it). <br>They
+      sure to order the Widowmaker (good luck with finishing it). <br />They
       have craft beers on tap and a few American soda options such as Dr.
       Pepper.
     </p>
@@ -149,15 +199,19 @@
     </p>
 
     <h4>
-      <a href="https://www.veganjunkfoodbar.com/" target="_blank"
+      <a
+        href="https://www.veganjunkfoodbar.com/"
+        target="_blank"
+        style="text-decoration: none"
+        id="vegan"
         >VEGAN JUNK FOOD</a
       >
     </h4>
     <p>
-      <b id="vegan">Vegan Junk Food Bar</b> - A homage to plant based junk food!
+      A homage to plant based junk food!
       They have several great burger options, with awesome vegan bacon, a yummy
       burger patty, and delicious vegan cheese. Make sure to also try the very
-      loaded nachos, and any of the cocktails. Carrer de Manresa 4 (Born).<br>
+      loaded nachos, and any of the cocktails. Carrer de Manresa 4 (Born).<br />
     </p>
     <p>
       <b>De Paula</b> - Sorry De Paula lovers, I know you want to keep this
@@ -178,13 +232,21 @@
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/barcentro4.png"
-          alt="meat burger at Bar Centro Restaurant "
-          class="img">
+          src="/burgers/barcentro4.jpg"
+          alt="meat burger at Bar Centro Restaurant"
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href="https://barcentrobcn.es/" target="_blank">BAR CENTRO</a>
+          <a
+            href="https://barcentrobcn.es/"
+            target="_blank"
+            style="text-decoration: none"
+            >BAR CENTRO</a
+          >
         </h4>
         <p>
           <b>Bar Centro </b> - Here, they make the kind of burgers that you’ve
@@ -201,35 +263,53 @@
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/timesburg5.png"
+          src="/burgers/timesburg5.jpg"
           alt="meat burger at Timesburg restaurant"
-          class="img">
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
-        <h4><a href="https://timesburg.com/" target="_blank">TIMESBURG</a></h4>
+        <h4>
+          <a
+            href="https://timesburg.com/"
+            target="_blank"
+            style="text-decoration: none"
+            id="timesburg"
+            >TIMESBURG</a
+          >
+        </h4>
         <p>
-          <b id="timesburg">Timesburg -</b> Choose your burger and drinks first,
-          and then take a seat. My favorite burger here is without a doubt the
-          one topped with foie gras. Their fries are excellent, one of my
-          favorites. They have a Timesburg Gold location with premium options on
-          the menu. Read my review of Timesburg here. You can find all the
-          Timesburg locations here.
+          Choose your burger and drinks first,and then take a seat. My favorite burger 
+          here is without a doubt the one topped with foie gras. Their fries are excellent, 
+          one of my favorites. They have a Timesburg Gold location with premium options on
+          the menu. Read my review of Timesburg here. You can find all the Timesburg locations here.
         </p>
       </div>
     </div>
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/laroyale6.png"
+          src="/burgers/laroyale6.jpg"
           alt="meet burger at La Royale restaurant"
-          class="img">
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href=" https://www.laroyale.es/en" target="_blank">LA ROYALE</a>
+          <a
+            href=" https://www.laroyale.es/en"
+            target="_blank"
+            style="text-decoration: none"
+            id="laroyale"
+            >LA ROYALE</a
+          >
         </h4>
         <p>
-          <b id="laroyale">La Royale</b> - Gourmet burgers are the theme here,
+          Gourmet burgers are the theme here,
           by famed chef Paco Perez. The meat is hand-cut, and the patties
           grilled on the Josper. You can pair your tasty burger with a gin
           tonic, or any other cocktail you fancy. The place is cozy, and they
@@ -258,18 +338,25 @@
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/machakaburger7.png"
+          src="/burgers/machakaburger7.jpg"
           alt="meet burger at La Royale restaurant"
-          class="img">
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href=" https://www.laroyale.es/en" target="_blank"
+          <a
+            href=" https://www.laroyale.es/en"
+            target="_blank"
+            style="text-decoration: none"
+            id="machaka"
             >MACHAKA BURGER</a
           >
         </h4>
         <p>
-          <b id="machaka">Machaka Burger </b> - The restaurant is cool: the
+          The restaurant is cool: the
           entrance is just like an apartment and the bathroom is inside the
           fridge..! Their burgers are straightforward smash burgers but with a
           lot of flavor. The desserts are worth checking out. C/ Balmes 165
@@ -301,16 +388,25 @@
     <div class="container">
       <div class="image">
         <img
-          src="/burgers/lareal8.png"
+          src="/burgers/lareal8.jpg"
           alt="Big burger from La real restaurant"
-          class="img">
+          class="img"
+          style="float: left"
+          margin="0px 15px 15px 0px"
+        />
       </div>
       <div class="text">
         <h4>
-          <a href="https://www.larealbcn.com/" target="_blank">LA REAL</a>
+          <a
+            href="https://www.larealbcn.com/"
+            target="_blank"
+            style="text-decoration: none"
+            id="lareal"
+            >LA REAL</a
+          >
         </h4>
         <p>
-          <b id="lareal">La Real -</b> It’s impossible not to be charmed by La
+          It’s impossible not to be charmed by La
           Real. They have immensely tasty options on their menu: if you’re a
           cheese lover, make sure to opt for the Raclette that comes with a
           huge, melted slice of raclette cheese. I loved the parmesan fries.
@@ -369,9 +465,17 @@
       excellent fries. There is a lunch menu option, and there are have
       gluten-free buns available. Carrer de Còrsega, 216 (Eixample).
     </p>
-    <h4><a href="https://www.bacoaburger.com/en/" target="_blank">BACOA</a></h4>
+    <h4>
+      <a
+        href="https://www.instagram.com/bacoaburger/"
+        target="_blank"
+        style="text-decoration: none"
+        id="bacoa"
+        >BACOA</a
+      >
+    </h4>
     <p>
-      <b id="bacoa">Bacoa -</b> A burger joint that has almost 10 years of
+      A burger joint that has almost 10 years of
       experience, and has several spots in the city. The Cabrales burger is
       pretty impressive, with Cabrales blue cheese and caramelized onion. Here
       you can find a list of all of the Bacoa locations.
@@ -424,10 +528,10 @@
     <div id="footer">
       <div class="container">
         <div class="image">
-          <img
+          <!-- <img
             src="/burgers/footerburger9.png"
             alt="Burgers pre-designed and the title Burgers"
-            class="img">
+            class="img"> -->
         </div>
         <div class="text">
           <p><b>Sign up for the Five Food Fridays Newsletter!</b></p>
@@ -437,26 +541,26 @@
             enctype="multipart/form-data"
             name="EmailForm"
           >
-            Name:<br>
-            <input type="text" size="13" name="Contact-Name"><br ><br >
-            Email:<br>
-            <input type="email" name="Contact-Email"><br><br>
-            Message:<br>
+            Name:
+            <input type="text" size="13" name="Contact-Name" /><br />
+            Email:
+            <input type="email" name="Contact-Email" /><br />
+            Message:<br />
             <textarea name="Contact-Message" rows="2" cols="25"> </textarea
-            ><br><br>
+            ><br />
             <button type="submit" value="Submit">Send</button>
             <p>All the info and material were taken from:</p>
-            <h3>
-              <i
-                ><a
-                  href="https://www.barcelonafoodexperience.com/blog/best-burgers-barcelona" target="_blank"
-                  >Barcelona Food Experience</a
-                ></i>
-            </h3>
+            <h2>
+              <a
+                href="https://www.barcelonafoodexperience.com/blog/best-burgers-barcelona"
+                target="_blank"
+                >Barcelona Food Experience</a
+              >
+            </h2>
           </form>
-
         </div>
       </div>
     </div>
+    <link rel="stylesheet" href="/main.css" defer />
   </body>
 </html>
