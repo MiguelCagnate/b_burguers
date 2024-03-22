@@ -1,7 +1,7 @@
 /* Estilo para pantallas pequeñas */
 @media only screen and (min-width: 375px) {
   img {
-    width: 110%;
+    width: 100%;
     max-width: 100%;
     image-rendering: pixelated;
   }
@@ -56,8 +56,8 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1px;
-
+  padding: 1%;
+  margin: 0px;
   color: rgb(28, 27, 27);
 }
 h1 {
@@ -86,10 +86,10 @@ h2 {
 }
 
 #customers {
-  width: 600px;
+  width: 800px;
   max-width: 100%;
   height: auto;
-  font-size: 67%;
+  font-size: 70%;
   border-collapse: collapse;
   align-items: center;
   text-align: center;
@@ -118,8 +118,8 @@ h2 {
 
 #social {
   text-align: center;
-  padding: 13px auto;
-  margin: 15px auto;
+  padding: 10px auto;
+  margin: 10px auto;
 }
 
 .button-52 {
@@ -162,13 +162,14 @@ h2 {
 
 img {
   max-width: 100%;
+  margin: "0px 2px 2px 0px";
 }
 .img {
   display: inline-block;
   image-rendering: pixelated;
   flex-basis: 100%;
   order: 2;
-  clear: left;
+
   border-radius: 2%;
   border-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -196,6 +197,11 @@ img {
   justify-content: center;
   margin: "0px 15px 15px 0px";
 }
+
+#footerTitle {
+  text-align: center;
+  text-decoration: none;
+}
 #footer {
   font-size: 12px;
   display: flex;
@@ -218,5 +224,4 @@ img {
     max-width: 100%; /* Allow the footer to take up the full width on small screens */
     margin-right: 2px; /* Adjust padding for smaller screens if necessary */
   }
-
 }
