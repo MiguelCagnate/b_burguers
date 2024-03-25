@@ -67,9 +67,6 @@ body {
   margin: 0px;
   color: rgb(28, 27, 27);
 }
-.scroller {
-  scrollbar-color: white rgb(244, 99, 59);
-}
 h1 {
   font-family: "Pacifico", cursive;
   max-width: 55rem;
